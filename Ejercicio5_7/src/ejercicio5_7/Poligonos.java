@@ -29,6 +29,7 @@ public class Poligonos {
             area=(float) (Math.PI*Math.pow(radio, 2));
                 System.out.println("El área del circulo es: "+area);
             break;
+            default: System.out.println("Opcion incorrecta");
         }
     }
     
